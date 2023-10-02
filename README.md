@@ -11,3 +11,5 @@ To run the project, first execute the SQL scripts and update their location in t
 After completing the above steps, go into main/java/com.security.springboot.demosecurity/DemoSecurityApplication.java and run the code.
 
 After that go to your browser and type in "localhost:8080/". This will take you to the home page where you either add user or use an existing user(check the SQL scripts for existing user) and then you can access different links depending on their role.
+
+Different types of roles are: "EMPLOYEE", "ADMIN", "MANAGER".
